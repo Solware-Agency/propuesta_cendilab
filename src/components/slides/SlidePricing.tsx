@@ -6,7 +6,7 @@ const SlidePricing = () => {
     {
       icon: DollarSign,
       title: "Costo Total del Proyecto",
-      value: "$1,200 USD",
+      value: "$1,200 USD (equivalente a Bs. según tasa BCV)",
     },
     {
       icon: Calendar,
