@@ -13,7 +13,7 @@ const SlideObjectives = () => {
     },
     {
       icon: Calendar,
-      text: "Control de cupos por turno con cupos diarios actualizados automáticamente mediante Supabase.",
+      text: "Control de cupos por turno con cupos diarios actualizados automáticamente.",
     },
     {
       icon: Users,
