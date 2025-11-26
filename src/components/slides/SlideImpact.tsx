@@ -1,27 +1,27 @@
 import Card from "../Card";
-import { Award, DollarSign, TrendingUp, Settings } from "lucide-react";
+import { UserCheck, SmilePlus, Calendar, TrendingUp } from "lucide-react";
 
 const SlideImpact = () => {
   const impacts = [
     {
-      icon: Award,
-      title: "Credibilidad Profesional",
-      description: "Una presencia digital moderna fortalece la confianza de instituciones médicas, laboratorios y centros de investigación en la trayectoria de BioSupplies.",
+      icon: UserCheck,
+      title: "Menor Carga Operativa",
+      description: "El personal deja de responder preguntas repetitivas para enfocarse en atención real y tareas de mayor valor, optimizando recursos humanos.",
     },
     {
-      icon: DollarSign,
-      title: "Mayor Visibilidad B2B",
-      description: "Posicionamiento en buscadores (SEO) especializado en el sector salud aumenta el alcance a clientes institucionales a nivel nacional.",
+      icon: SmilePlus,
+      title: "Mejora en la Experiencia del Paciente",
+      description: "Atención inmediata 24/7 sin tiempos de espera, con respuestas precisas sobre precios, indicaciones, disponibilidad y gestión de citas de forma automática.",
+    },
+    {
+      icon: Calendar,
+      title: "Control Automatizado de Cupos y Citas",
+      description: "Sistema inteligente que administra automáticamente cupos por turno, agenda de exámenes y consultas médicas, eliminando la gestión manual y errores.",
     },
     {
       icon: TrendingUp,
-      title: "Acceso Comercial Facilitado",
-      description: "Instituciones médicas y laboratorios encuentran fácilmente información sobre productos, catálogo, cobertura y canales de contacto comercial.",
-    },
-    {
-      icon: Settings,
-      title: "Base para Crecimiento",
-      description: "Plataforma escalable lista para futuras integraciones como sistema de pedidos online, área de aliados y portal de clientes.",
+      title: "Sistema Escalable",
+      description: "Arquitectura flexible preparada para futuras mejoras como integración con sistemas internos, análisis de datos y nuevas funcionalidades según las necesidades de Cendilab.",
     },
   ];
 

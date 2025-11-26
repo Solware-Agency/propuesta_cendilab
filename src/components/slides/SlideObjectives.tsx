@@ -1,38 +1,42 @@
 import Card from "../Card";
-import { Target, Package, Mail, Search, Palette, Network } from "lucide-react";
+import { MessageSquare, Database, Calendar, Users, Shield, ArrowRightLeft, Headphones } from "lucide-react";
 
 const SlideObjectives = () => {
   const objectives = [
     {
-      icon: Target,
-      text: "Diseñar una página web profesional y responsive (adaptada a móviles) que proyecte confianza, solidez y trayectoria en el sector.",
+      icon: MessageSquare,
+      text: "Atención inmediata por WhatsApp 24/7 sin depender del personal operativo.",
     },
     {
-      icon: Package,
-      text: "Crear sección de catálogo digital para presentar productos, equipos y materiales descartables dirigidos a instituciones médicas y laboratorios.",
+      icon: Database,
+      text: "Precios e indicaciones de más de 350 exámenes con información clara, precisa y en segundos.",
     },
     {
-      icon: Mail,
-      text: "Implementar formulario de contacto comercial para facilitar consultas de instituciones médicas, laboratorios y centros de investigación.",
+      icon: Calendar,
+      text: "Control de cupos por turno con cupos diarios actualizados automáticamente mediante Supabase.",
     },
     {
-      icon: Search,
-      text: "Optimización SEO básica enfocada en búsquedas B2B del sector salud para mejorar visibilidad en buscadores.",
+      icon: Users,
+      text: "Agenda de exámenes y consultas integrada con Google Calendar para ver disponibilidad, agendar, reprogramar y cancelar.",
     },
     {
-      icon: Palette,
-      text: "Diseño profesional alineado con el Manual de Identidad Corporativa de BioSupplies, comunicando integridad, excelencia y compromiso.",
+      icon: Shield,
+      text: "Gestión de consultas médicas: consultas con cita mediante Calendar y consultas por orden de llegada con validación automática de cupos.",
     },
     {
-      icon: Network,
-      text: "Plataforma escalable con posibilidad de integración futura de sistema de pedidos online y área de aliados comerciales."
+      icon: Database,
+      text: "Registro estructurado del paciente donde nombre, cédula, teléfono y motivos quedan guardados en una base de datos segura.",
+    },
+    {
+      icon: ArrowRightLeft,
+      text: "Transferencia a humano: cuando el paciente lo solicite, el agente se detiene y transfiere la conversación al personal.",
     },
   ];
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-4xl w-full space-y-8">
-        <h2 className="text-center text-foreground mb-8">Nuestra Propuesta</h2>
+        <h2 className="text-center text-foreground mb-8">¿Qué soluciona Solware con este proyecto?</h2>
 
         <Card variant="glass" className="space-y-6">
           {objectives.map((objective, index) => {

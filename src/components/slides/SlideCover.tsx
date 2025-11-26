@@ -7,19 +7,20 @@ const SlideCover = () => {
 
         {/* Title */}
         <h1 className="text-foreground">
-          Web para BIOSUPPLIES
+          Agente de IA por WhatsApp para CENDILAB
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl sm:text-2xl text-primary font-semibold">
-          Propuesta presentada por Solware
+          Propuesta presentada por Solware Agency
         </p>
 
         {/* Description */}
         <p className="text-foreground/80 max-w-2xl mx-auto leading-relaxed text-justify">
-          Empresa venezolana de distribución de productos, equipos y materiales para patología
-          y diagnóstico biomédico. Una propuesta para establecer una presencia digital profesional
-          que fortalezca la confianza, mejore la visibilidad y facilite el contacto comercial.
+          Cendilab busca optimizar su atención al cliente y mejorar la gestión de citas, cupos y
+          consultas médicas. Solware propone la implementación de un Agente de Inteligencia Artificial
+          por WhatsApp, totalmente personalizado para Cendilab, que automatiza la atención, organiza
+          la agenda y reduce significativamente la carga operativa del equipo.
         </p>
 
         {/* Copyright */}

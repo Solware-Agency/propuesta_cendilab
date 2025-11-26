@@ -6,23 +6,23 @@ const SlidePricing = () => {
     {
       icon: DollarSign,
       title: "Costo Total del Proyecto",
-      value: "$800 USD",
+      value: "$1,200 USD",
     },
     {
       icon: Calendar,
       title: "Forma de Pago (3 cuotas)",
       value:
-        "40% para iniciar el desarrollo ($320 USD); 40% veintiún días después del primer pago ($320 USD); 20% veintiún días después del segundo pago ($160 USD).",
+        "Primer pago (30%) – $360 USD para iniciar el desarrollo; Segundo pago (50%) – $600 USD 30 días después del primer pago; Pago final (20%) – $240 USD al momento de la entrega final del proyecto.",
     },
     {
       icon: Server,
-      title: "Tecnología",
-      value: "Página web desarrollada con React + TypeScript, optimizada para rendimiento y SEO. Hosting y dominio no incluidos (pueden contratarse por separado).",
+      title: "Incluye",
+      value: "Configuración completa del agente de IA, integración con WhatsApp API, base de datos en Supabase, integración con Google Calendar, sistema de cupos e inducción del personal.",
     },
     {
       icon: Wrench,
-      title: "Forma de Pago",
-      value: "Costo total del proyecto en Dólares Americanos.",
+      title: "Tecnología",
+      value: "Sistema construido con WhatsApp Business API, Supabase (base de datos + gestión de cupos), Google Calendar (agenda) y servidor inteligente con automatización mediante n8n y LLM.",
     },
   ];
 
@@ -56,7 +56,7 @@ const SlidePricing = () => {
 
         <Card variant="glass" className="mt-8">
           <p className="text-center text-foreground/70 text-sm italic text-justify">
-            Esta solución le dará a BioSupplies la visibilidad y profesionalismo que necesita en su presencia digital, abriendo la puerta a futuras integraciones como entrega de resultados clínicos y automatización de citas.
+            Con este proyecto, Cendilab contará con un sistema inteligente que reduce carga operativa, mejora la atención al paciente y organiza toda la gestión de citas y cupos en una sola plataforma automatizada por WhatsApp.
           </p>
         </Card>
 

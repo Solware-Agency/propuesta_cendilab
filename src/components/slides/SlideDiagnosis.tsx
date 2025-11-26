@@ -3,24 +3,34 @@ import Card from "../Card";
 const SlideDiagnosis = () => {
   const challenges = [
     {
-      title: "Sin Presencia Digital Efectiva",
+      title: "Consultas Repetitivas Constantes",
       description:
-        "Actualmente BioSupplies no cuenta con una presencia digital efectiva, representando una pérdida de visibilidad nacional e internacional en el sector de distribución de equipos y materiales para patología y diagnóstico biomédico.",
+        "Pacientes preguntan precios, indicaciones y horarios constantemente, generando tiempos de espera y saturación del personal.",
     },
     {
-      title: "Catálogo Sin Difusión Digital",
+      title: "Sin Control de Cupos Automatizado",
       description:
-        "No existe una plataforma para presentar de forma clara y profesional el catálogo de productos, equipos y materiales descartables que distribuye la empresa.",
+        "No existe un control automatizado de cupos por turno (mañana/tarde) para consultas médicas, generando desorganización y falta de control sobre los cupos del día.",
     },
     {
-      title: "Sin Canal de Contacto Comercial",
+      title: "Criterios No Centralizados",
       description:
-        "No hay un canal digital propio para que instituciones médicas, laboratorios y centros de investigación puedan consultar sobre productos, realizar pedidos o solicitar información comercial.",
+        "Algunas consultas se manejan por orden de llegada, otras por cita, y este criterio no está centralizado, creando confusión para pacientes y personal.",
     },
     {
-      title: "Baja Visibilidad en Búsquedas",
+      title: "Exámenes Sin Agenda Centralizada",
       description:
-        "Sin presencia web, se pierde relevancia en buscadores como Google (SEO) y los clientes potenciales no encuentran fácilmente información sobre productos, servicios de distribución o contacto comercial."
+        "Exámenes que requieren cita no tienen una agenda centralizada, dificultando la gestión y coordinación de los servicios.",
+    },
+    {
+      title: "Información No Organizada",
+      description:
+        "La información del paciente no queda almacenada de forma organizada, dificultando el seguimiento y la gestión administrativa.",
+    },
+    {
+      title: "Personal Saturado",
+      description:
+        "El personal pierde tiempo en respuestas repetitivas y administración de horarios, reduciendo su capacidad para atención real y tareas prioritarias.",
     },
   ];
 
@@ -28,10 +38,10 @@ const SlideDiagnosis = () => {
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
       <div className="max-w-6xl w-full space-y-8">
         <h2 className="text-center text-foreground mb-8">
-          Necesidad Detectada
+          La necesidad de Cendilab
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {challenges.map((challenge, index) => (
             <Card key={index} variant="neuo" className="space-y-3">
               <h3 className="text-primary">{challenge.title}</h3>
