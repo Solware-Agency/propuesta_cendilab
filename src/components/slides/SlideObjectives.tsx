@@ -46,7 +46,7 @@ const SlideObjectives = () => {
                 <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-primary/20 flex items-center justify-center">
                   <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" aria-hidden="true" />
                 </div>
-                <p className="text-foreground/80 text-sm sm:text-base leading-relaxed pt-2 text-justify">
+                <p className="text-foreground/80 text-sm sm:text-base leading-relaxed pt-2">
                   {objective.text}
                 </p>
               </div>
