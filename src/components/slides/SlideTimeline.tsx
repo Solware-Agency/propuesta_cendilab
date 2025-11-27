@@ -12,10 +12,16 @@ const SlideTimeline = () => {
       week: "Semana 2",
       title: "Programación del Agente",
       activities:
-        "Flujos conversacionales, módulo de precios e indicaciones, módulo de cupos diarios, módulo de citas, registro de datos y manejo de transferencia usuario → humano.",
+        "Flujos conversacionales, módulo de precios e indicaciones, módulo de cupos diarios, registro de datos y manejo de transferencia usuario → humano.",
     },
     {
       week: "Semana 3",
+      title: "Programación del Agente",
+      activities:
+        "Continuación de desarrollo: módulo de citas, integración completa de componentes, optimización de flujos y pruebas unitarias de módulos.",
+    },
+    {
+      week: "Semana 4",
       title: "Pruebas, ajustes e inducción",
       activities: "Pruebas internas (QA técnico), pruebas con Cendilab, ajustes finales, inducción al personal y entrega del proyecto.",
     },
