@@ -12,10 +12,6 @@ const SlideObjectives = () => {
       text: "Precios e indicaciones de más de 350 exámenes con información clara, precisa y en segundos.",
     },
     {
-      icon: Calendar,
-      text: "Control de cupos por turno con cupos diarios actualizados automáticamente.",
-    },
-    {
       icon: Users,
       text: "Agenda de exámenes y consultas integrada con Google Calendar para ver disponibilidad, agendar, reprogramar y cancelar.",
     },
