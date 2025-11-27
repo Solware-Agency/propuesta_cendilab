@@ -16,8 +16,8 @@ const SlidePricing = () => {
     },
     {
       icon: Server,
-      title: "Incluye",
-      value: "Configuración completa del agente de IA, integración con WhatsApp API, base de datos en Supabase, integración con Google Calendar, sistema de cupos e inducción del personal.",
+      title: "Mensualidad",
+      value: "$150 USD por mantener y garantizar la eficiencia del servicio. Los costos de WhatsApp Business son cubiertos por el cliente.",
     },
     {
       icon: Wrench,
